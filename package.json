@@ -1,0 +1,16 @@
+{
+  "name": "@xpresser/new-plugin",
+  "version": "1.0.0",
+  "description": "A boilerplate for creating plugin for xpresserjs",
+  "main": "index.js",
+  "repository": "https://github.com/xpresserjs/new-plugin",
+  "author": "xpresserjs",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "xpresser": "^0.2.57"
+  },
+  "dependencies": {
+    "@xpresser/router": "^1.0.12"
+  }
+}

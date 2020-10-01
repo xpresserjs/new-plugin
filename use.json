@@ -1,0 +1,11 @@
+{
+  "namespace": "@xpresser/new-plugin",
+  "use_index": true,
+  "paths": {
+    "controllers": "controllers",
+    "routesFile": "routes.js"
+  },
+  "publishable": {
+    "configs": "configs"
+  }
+}
