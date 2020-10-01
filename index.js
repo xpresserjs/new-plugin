@@ -11,17 +11,14 @@ module.exports = {
      */
     run(plugin) {
 
-        $.ifNotConsole(() => {
+        /**
+         * Add on boot event to current project.
+         */
+        $.on.serverBooted(next => {
 
-            /**
-             * Add on boot event to current project.
-             */
-            $.on.boot(next => {
+            $.logInfo(`Hello 👋 from run() @ index.js in {${plugin.namespace}}`)
 
-                $.logInfo(`Hello 👋 from run() @ index.js in {${plugin.namespace}}`)
-
-                return next()
-            });
+            return next()
         });
 
     }

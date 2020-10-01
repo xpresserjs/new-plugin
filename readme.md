@@ -20,7 +20,7 @@ Once this has been added your boot log will show this below if you have **plugin
 => Hello 👋 from run() @ index.js in {@xpresser/new-plugin}
 ```
 **Note:** The second log may not show immediately after the first like in the example above.
-The action that calls the second log is an `$.on.boot` event, meaning if you have other events they may log before it.
+The action that calls the second log is an `$.on.serverBooted` event, meaning if you have other events they may log before it.
 
 
 ## Route
