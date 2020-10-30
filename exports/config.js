@@ -1,5 +1,5 @@
 /**
- * Publishable configuration file.
+ * Importable configuration file.
  * Note: this file can be named anything.
  */
 module.exports = {

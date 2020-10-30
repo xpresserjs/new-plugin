@@ -6,7 +6,7 @@
 module.exports = {
 
     /**
-     * Runs before the `$.on.boot` event
+     * Runs before the `$.on.boot` event after `$.on.start`
      * @param plugin
      */
     run(plugin) {

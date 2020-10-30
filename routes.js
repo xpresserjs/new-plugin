@@ -3,7 +3,7 @@
  * --- Require xpresser router
  * --- initialise router with namespace as plugin namespace.
  */
-const config = require('./config');
+const config = require('./plugin-config');
 const XpresserRouter = require('@xpresser/router');
 const router = new XpresserRouter(config.get('namespace'));
 

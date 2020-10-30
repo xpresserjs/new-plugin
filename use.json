@@ -5,7 +5,7 @@
     "controllers": "controllers",
     "routesFile": "routes.js"
   },
-  "publishable": {
-    "configs": "configs"
+  "importable": {
+    "configs": "exports/config.js"
   }
 }

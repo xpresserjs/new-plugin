@@ -1,4 +1,5 @@
-const config = require('../config');
+const config = require('../plugin-config');
+
 const MainController = {
     name: 'MainController',
 

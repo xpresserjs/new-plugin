@@ -11,7 +11,7 @@ Clone/Download this repo into your project maybe **plugins** folder, then put th
 [
    // ... plugins
    "base://plugins/new-plugin"
-]   
+]
 ```
 
 Once this has been added your boot log will show this below if you have **plugin logs** enabled.
@@ -32,4 +32,4 @@ The structure of this plugin is expected to be followed in order to enable a goo
 
 
 ## Plugin Documentation
-learn how to create your plugin, click here: [xpresserjs.com](https://xpresserjs.com/plugins/create)
+learn how to create your plugin, click here: [https://xpresserjs.com/plugins/create.html](https://xpresserjs.com/plugins/create.html)
